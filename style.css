@@ -11,3 +11,19 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.bg {
+    background: url(https://images7.alphacoders.com/411/411820.jpg);
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(1, 3, 100);
+}
